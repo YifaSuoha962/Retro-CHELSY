@@ -1,8 +1,7 @@
 ##  Diverse Retrosynthesis via Hierarchical Latent Variables and Chemical Synonyms
 ## Reproduce the Results
 ### 1. Environmental setup
-Please ensure that conda has been properly initialized, i.e. **conda activate** is runnable. Then
-准备 conda 环境和相关的工具包
+Please ensure that conda has been properly initialized, i.e. **conda activate** is runnable. 
 ```
 conda create -n retrog2s python==3.9.19
 conda activate retrog2s
@@ -57,4 +56,4 @@ python inference.py --dataset_name uspto_diverse --model_type BiG2S_HCVAE --beam
 ```
 
 ## Acknowledgement
-We refer to the codes of[Graph2SMILES](https://github.com/coleygroup/Graph2SMILES), [RetroDCVAE](https://github.com/MIRALab-USTC/DD-RetroDCVAE), [BiG2S](https://github.com/AILBC/BiG2S) and [RetroBridge](https://github.com/igashov/RetroBridge). Thanks for their contributions.  
+We refer to the codes of [Graph2SMILES](https://github.com/coleygroup/Graph2SMILES), [RetroDCVAE](https://github.com/MIRALab-USTC/DD-RetroDCVAE), [BiG2S](https://github.com/AILBC/BiG2S) and [RetroBridge](https://github.com/igashov/RetroBridge). Thanks for their contributions.  
